@@ -1,0 +1,185 @@
+{
+    box-sizing: border-box;
+}
+
+html{scroll-behavior: smooth;}
+
+body{
+    background-color: rgb(55, 55, 55);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    }
+
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+ul{list-style: 0;}
+
+.color-acento{ color: rgb(187, 62, 62);}
+
+button{
+    font-size: 3em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 10px rgb(255, 255, 255);
+    color: white;
+    background-color: dimgrey;
+}
+
+button:hover{
+    background-color: rgb(124, 47, 47);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(32, 32, 32);
+}
+header .logo{
+    margin: 0;
+    padding: 25px;
+    font-weight: bold;
+    color: rgb(187, 62, 62);
+    font-size: 1.30em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+header a{
+    font-size: 20px;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: rgb(187, 62, 62);
+    font-weight: bold;
+}
+
+header a:hover{
+    color: rgb(254, 254, 254);
+
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+       rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/continentes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center center;  
+}
+
+#hero button{
+    font-size: 1.75em;
+}
+
+#somos-now{
+    text-align: center;
+    padding: 50px 30px;
+    color: white;
+}
+
+#Los-Programas{
+    /*background-image: url("media/matrix.gif");
+    background-repeat: no-repeat;
+    background-position: center;*/
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+}
+
+#Los-Programas .container{
+    padding: 100px 0px;
+    
+}
+
+#Los-Programas h2{
+    margin: 0;
+    font-size: 3em;
+}
+
+#Los-Programas p{
+    display: none;
+
+}
+
+#Los-Programas .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 20px;
+
+}
+
+.carta:first-child{
+    background-image: url("media/programas.gif");
+}
+
+.carta:nth-child(2){
+    background-image: url("media/juegos.gif");
+}   
+
+.carta:nth-child(3){
+    background-image: url("media/software.gif");
+}
+
+#caracteristicas .container{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    )
+    ,url("media/caracteristicas.jpg");
+    padding: 15px 0px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 250px 12px;
+}
+
+#caracteristicas li{
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
+#Descargar{
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(36, 26, 26);
+    color: white;
+    height: 80vh;
+}
+
