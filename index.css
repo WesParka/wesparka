@@ -89,7 +89,7 @@ header a:hover{
        rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/continentes.jpg");
+    ,url("Media/continentes.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center center;  
@@ -141,15 +141,15 @@ header a:hover{
 }
 
 .carta:first-child{
-    background-image: url("media/programas.gif");
+    background-image: url("Media/programas.gif");
 }
 
 .carta:nth-child(2){
-    background-image: url("media/juegos.gif");
+    background-image: url("Media/juegos.gif");
 }   
 
 .carta:nth-child(3){
-    background-image: url("media/software.gif");
+    background-image: url("Media/software.gif");
 }
 
 #caracteristicas .container{
@@ -158,7 +158,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/caracteristicas.jpg");
+    ,url("Media/caracteristicas.jpg");
     padding: 15px 0px;
     background-position: left center;
     background-repeat: no-repeat;
